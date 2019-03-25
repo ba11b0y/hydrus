@@ -23,5 +23,5 @@ SQLAlchemy==1.2.10
 thespian==3.9.2
 Werkzeug==0.14.1
 PyYAML==4.2b1
-git+https://github.com/HTTP-APIs/hydra-python-core#egg=hydra_python_core
-git+https://github.com/HTTP-APIs/hydra-openapi-parser#egg=hydra_openapi_parser
+git+https://github.com/HTTP-APIs/hydra-python-core.git#egg=hydra_python_core
+git+https://github.com/HTTP-APIs/hydra-openapi-parser.git#egg=hydra_openapi_parser
