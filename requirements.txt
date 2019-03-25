@@ -14,7 +14,7 @@ MarkupSafe==1.0
 packaging==17.1
 pep8==1.7.1
 persisting-theory==0.2.1
-psycopg2==2.7.5
+psycopg2-binary
 pyparsing==2.2.0
 python-dateutil==2.7.3
 pytz==2018.5
