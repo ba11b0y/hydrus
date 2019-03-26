@@ -14,13 +14,13 @@ except ImportError:  # for pip <= 9.0.3
 install_requires = parse_requirements('requirements.txt', session=PipSession())
 dependencies = [str(package.req) for package in install_requires]
 
-setup(name='hydrus',
+setup(name='test-hydrus',
       include_package_data=True,
       version='0.2.1',
       description='Hydra Ecosystem Flagship Server. Deploy REST data for Web 3.0',
       author='Hydra Ecosystem',
       author_email='hydraecosystem@googlegroups.com',
-      url='https://github.com/HTTP-APIs/hydrus',
+      url='https://github.com/invinciblycool/hydrus',
       py_modules=['cli'],
       python_requires='>=3.5.2',
       install_requires=dependencies,
